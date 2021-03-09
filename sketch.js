@@ -36,6 +36,10 @@ function setup() {
   
 function draw() {
   background(220);
+  
+  camera.position.x=monkey.x
+  camera.position.y=monkey.y
+  
   edges=createEdgeSprites()
   text(mouseX+","+mouseY,mouseX,mouseY)
    
